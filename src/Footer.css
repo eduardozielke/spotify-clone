@@ -28,6 +28,14 @@
     color: #1ed15e;
 }
 
+.footer__songInfo > h4 {
+    margin-bottom: 5px;
+}
+
+.footer__songInfo > p {
+    font-size: 12px;
+}
+
 .footer__center {
     flex: 0.4;
     padding: 0 100px;
@@ -37,6 +45,17 @@
     justify-content: space-between;
     max-width: 300px;
 }
+
+.footer__icon:hover,
+.footer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.footer__right * .MuiSlider-root {
+    color: green;
+}
+
 
 .footer__right {
     flex: 0.3;
